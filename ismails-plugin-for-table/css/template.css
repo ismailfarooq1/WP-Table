@@ -1,0 +1,503 @@
+/*
+All Template in One File
+Inluded Template List:
+Default Template - default
+Green Template - green
+Blue Template - blue
+*/
+
+
+
+/********************** Template: Default ************************************/
+.default_table{
+	position: relative;
+	border-collapse: collapse;
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+.default_table thead{
+	border-bottom: 2px solid #36304a;
+}
+.default_table thead .wptf_table_header_row th{
+	
+    height: 80;
+    color: #000000;
+    background: #efefef;
+    font-family: unset;
+}
+.default_table td,
+.default_table th {
+	padding: 10px;
+}
+.default_table tbody tr td{
+	border: 1px solid #F6F6F6;
+	background-color: white;
+}
+.default_table .wptf_row td img{
+        height: auto;
+} 
+.default_table tbody tr{
+	transition: all .5s;
+}
+
+.default_table tbody tr:hover{
+	background: #f7faff;
+}
+.default_table tbody tr a.button{
+	display: inline-block;
+	padding: 10px;
+	background: #113c8a;
+	color: #fff;
+	font-size: 14px;
+	border-radius: 3px;
+	font-weight: bold;
+}
+/*for hover of default template*/
+table#wptf_table.wptf_product_table.default_table thead>tr>th.this_column_sorted {
+    background-color: rgb(245, 245, 245) !important;
+}
+
+/********************** Template: Default ************************************/
+
+/********************** Template: blacky ************************************/
+.blacky_table{
+	position: relative;
+	border-collapse: collapse;
+	background: white;
+	width: 100%;
+	margin: 0 auto;
+}
+.blacky_table thead .wptf_table_header_row th{
+	height: 50px;
+	color: #fff;
+	background: #36304a;
+}
+.blacky_table td,
+.blacky_table th {
+	padding: 10px;
+}
+.blacky_table tbody tr td{
+	border: 1px solid #e1e1e1;
+}
+.blacky_table .wptf_row td img{
+        height: auto;
+} 
+.blacky_table tbody tr{
+	transition: all .5s;
+}
+.blacky_table.tr_bg_1{
+	background: #efefef;
+	padding: 10px;
+}
+.blacky_table .tr_bg_2{
+	background: #f7f7f7;
+	padding: 10px;
+}
+.blacky_table tbody tr:hover{
+	background: #f7faff;
+}
+.blacky_table tbody tr a.button{
+	display: inline-block;
+    padding: 10px;
+    background: #36304a;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+table#wptf_table.wptf_product_table.blacky_table thead>tr>th.this_column_sorted {
+    background-color: rgb(16, 14, 23) !important;
+}
+
+/********************** Template: blacky End************************************/
+
+/********************** Template: green************************************/
+.green_table{
+	position: relative;
+	border-collapse: collapse;
+	background: white;
+	width: 100%;
+	margin: 0 auto;
+}
+.green_table thead .wptf_table_header_row th{
+	height: 50px;
+	color: #fff;
+	background: #00b20b;
+}
+.green_table td,
+.green_table th {
+	padding: 10px;
+}
+.green_table tbody tr td{
+	border: 1px solid #e1e1e1;
+}
+.green_table .wptf_row td img{
+        height: auto;
+} 
+.green_table tbody tr{
+	transition: all .5s;
+}
+
+.green_table tbody tr:hover{
+	background: #f7faff;
+}
+.green_table tbody tr a.button{
+	display: inline-block;
+    padding: 10px;
+    background: #00b20b;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+table#wptf_table.wptf_product_table.green_table thead>tr>th.this_column_sorted {
+    background-color: rgb(3, 130, 10) !important;
+}
+/********************** Template: green End************************************/
+
+
+/********************** Template: blue************************************/
+
+.blue_table{
+	position: relative;
+	border-collapse: collapse;
+	background: white;
+	width: 100%;
+	margin: 0 auto;
+}
+.blue_table thead .wptf_table_header_row th{
+	height: 50px;
+	color: #fff;
+	background: #0824a5;
+}
+.blue_table td,
+.blue_table th {
+	padding: 10px;
+}
+.blue_table tbody tr td{
+	border: 1px solid #e1e1e1;
+}
+.blue_table .wptf_row td img{
+        height: auto;
+} 
+.blue_table tbody tr{
+	transition: all .5s;
+}
+
+.blue_table tbody tr:hover{
+	background: #f7faff;
+}
+.blue_table tbody tr a.button{
+	display: inline-block;
+    padding: 10px;
+    background: #0824a5;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+table#wptf_table.wptf_product_table.blue_table thead>tr>th.this_column_sorted {
+    background-color: rgb(40, 76, 241) !important;
+}
+
+/********************** Template: blue End************************************/
+
+
+/********************** Template: Smart Thin************************************/
+
+/*Style Universal for Tr,Td,Th etc  table.wptf_product_table.blue_wrapper */
+table.wptf_product_table.smart_table, 
+table.wptf_product_table.smart_table tr, 
+table.wptf_product_table.smart_table td, 
+table.wptf_product_table.smart_table th {
+    border-collapse: collapse;
+    border: 1px solid #efefef;
+}
+/* div.wptf_product_table_wrapper.smart_wrapper .wptf_clear{display: none;} */
+div.wptf_product_table_wrapper.smart_wrapper table.smart_table{
+    padding: 0;
+    margin: 0px 0px 2px 0px;
+}
+div.wptf_product_table_wrapper.smart_wrapper button.button.wptf_search_button,
+div.wptf_product_table_wrapper.smart_wrapper button.button.wptf_load_more
+{
+    font-weight: normal;
+    padding: 2px 12px;
+}
+div.wptf_product_table_wrapper.smart_wrapper .tables_cart_message_box .wptf_live_cart_box {
+    padding: 3px 0px;
+    position: relative;
+}
+
+div.wptf_product_table_wrapper.smart_wrapper .tables_cart_message_box .wptf_live_cart_box .cart-dropdown .wptf_dropdown li {
+    padding: 0px 3px;
+    background: rgba(189, 189, 189, 0.07058823529411765);
+    display: inline-block;
+    border: none !important;
+    border-radius: 2px;
+    margin: 2px 0;
+    font-size: 10px;
+    color: #42bc42;
+}
+div.wptf_product_table_wrapper.smart_wrapper .tables_cart_message_box{
+    font-size: 80%;
+}
+table.wptf_product_table.smart_table{
+    
+}
+table.wptf_product_table.smart_table tbody{
+    
+}
+table.wptf_product_table.smart_table tbody>tr.wptf_row td.wptf_thumbnails img {
+    margin: 0 auto;
+    border-radius: 0;
+    padding: 0 !important;
+}
+table.wptf_product_table.smart_table tbody>tr.wptf_row td a.button,
+div.wptf_product_table_wrapper.smart_wrapper a.button.add_to_cart_all_selected
+{
+    padding: 2px 5px;
+    font-size: 90%;
+    margin: 0 2px;
+}
+div.wptf_product_table_wrapper.smart_wrapper .all_check_header_footer.all_check_header>span {
+    background: none;
+    display: inline-block;
+    padding: 0px 7px;
+    border: none;
+    margin: 0 2px;
+    font-size: .80em;
+}
+div.wptf_product_table_wrapper.smart_wrapper .all_check_footer {
+    display: block;
+    padding: 2px;
+    margin: 3px 0;
+    text-align: right;
+    background: rgba(0, 0, 0, 0.02);
+}
+div.wptf_product_table_wrapper.smart_wrapper select, .filter_select,
+div.wptf_product_table_wrapper.smart_wrapper select.filter_select,
+table.wptf_product_table.smart_table tbody>tr.wptf_row td select {
+    padding: 0;
+    font-size: 80%;
+}
+
+table.wptf_product_table.smart_table tbody>tr{
+    
+}
+table.wptf_product_table.smart_table tbody>tr td input,
+table.wptf_product_table.smart_table tbody>tr td input[type="number"],
+table.wptf_product_table.smart_table tbody>tr td input[type="text"],
+table.wptf_product_table.smart_table tbody>tr td input[type="email"],
+table.wptf_product_table.smart_table tbody>tr td input[type="password"]{
+    padding: 0 3px;
+    max-width: 98%;
+}
+div.wptf_product_table_wrapper.smart_wrapper .search_single .query_box_direct_value,
+div.wptf_product_table_wrapper.smart_wrapper .instance_search_input {
+    width: 98%;
+    border-radius: 1px;
+    padding: 0 2px;
+    border: 1px solid #a9a1a1;
+    margin-bottom: auto auto 6px auto;
+	padding-left: 10px;
+}
+div.wptf_product_table_wrapper.smart_wrapper input[type=checkbox]+label {
+    position: relative;
+    cursor: pointer;
+    padding: 0 2px 0 0;
+    margin-left: 0;
+}
+table.wptf_product_table.smart_table tr.wptf_row td.wptf_quantity div.quantity input.input-text.qty.text {
+    width: 33px !important;
+}
+table.wptf_product_table.smart_table thead tr {
+    background: rgba(0, 0, 0, 0.02);
+}
+table.wptf_product_table.smart_table thead tr th{color: black;}
+table.wptf_product_table.smart_table thead{
+    
+}
+table.wptf_product_table.smart_table thead>tr{
+    
+}
+
+
+
+
+div.wptf_product_table_wrapper.smart_wrapper table.wptf_product_table.smart_table {
+    width: 100%;
+}
+table.wptf_product_table.smart_table td, 
+table.wptf_product_table.smart_table th {
+    padding: 0 0 0 3px !important;
+    font-size: 0.75em;
+}
+
+/*******************************End of Smart Thin Style***************************/
+
+/*******************************End of Business Style***************************/
+.business_table{
+	position: relative;
+	border-collapse: collapse;
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+.business_table thead{
+	border-bottom: 2px solid #36304a;
+}
+.business_table thead .wptf_table_header_row th{
+	height: 50px;
+	color: #36304a;
+	background: #F8F8F8;
+}
+.business_table td,
+.business_table th {
+	padding: 10px;
+}
+.business_table tbody tr td{
+	border: 1px solid #F6F6F6;
+}
+.business_table .wptf_row td img{
+        height: auto;
+} 
+.business_table tbody tr{
+	transition: all .5s;
+}
+.business_table .tr_bg_1{
+	background: #FDFDFD;
+	padding: 10px;
+}
+.business_table .tr_bg_2{
+	background: #FBFBFB;
+	padding: 10px;
+}
+.business_table tbody tr:hover{
+	background: #f7faff;
+}
+.business_table tbody tr a.button{
+	display: inline-block;
+    padding: 10px;
+    background: #36304a;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+table#wptf_table.wptf_product_table.business_table thead>tr>th.this_column_sorted {
+    background-color: rgb(245, 245, 245) !important;
+}
+
+
+/*******************************End of Business Style end ***************************/
+
+
+
+
+/*Customization for Quantity Collum*/
+table.wptf_product_table.business_table thead th.quantity {
+    width: 83px;
+}
+
+/*Customize Action collumn*/
+.wptf_product_table thead th.action{
+    width: 167px;
+}
+table.wptf_product_table.business_table thead th.action,
+table.wptf_product_table.business_table tbody tr td.wptf_action{
+    /* background: rgba(116, 175, 153, 0.04); */
+}
+
+/*Customize for Quantity Collumn*/
+table.wptf_product_table.business_table td.wptf_quantity {
+    padding: 0 !important;
+}
+table.wptf_product_table.business_table tbody tr td.wptf_quantity>div.quantity input[type='number']{
+    color: #000000;
+    padding: 6px;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0);
+    background: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+/*Add to Cart Button Style*/
+table.wptf_product_table.business_table span.wptf_product_price>a.button.add_to_cart_button {
+    background: rgb(183, 183, 183);
+    display: inline-block;
+    padding: 1px 8px;
+    border-radius: 2px;
+    border: 1px solid #989898;
+    color: #ffffff;
+    font-weight: normal;
+}
+table.wptf_product_table.business_table tr:hover span.wptf_product_price>a.button.add_to_cart_button {
+    background: rgba(255, 255, 255, 0.54);
+    border: 1px solid #c5c5c5;
+    color: #000000;
+}
+table.wptf_product_table.business_table span.wptf_product_price>a.button.add_to_cart_button.added {
+    background: rgb(230, 230, 230);
+    display: inline-block;
+    padding: 2px 3px;
+    border-radius: 3px;
+    border: 1px solid #d8d8d8;
+    color: #c5c5c5;
+}
+
+div.wptf_product_table_wrapper.business_wrapper table.wptf_product_table.business_table tbody tr td.wptf_masic_column{
+   background: rgb(255, 255, 255);
+   /* rgba(154, 154, 154, 0.02) */
+}
+
+div#wptf_table_wrapper.business_wrapper {
+    border-radius: 17px;
+    overflow: hidden;
+    background: rgb(245, 245, 245);
+    border: 1px solid rgba(97, 97, 97, 0.5);
+}
+/*Business Template New Style for Table Head*/
+div#wptf_table_wrapper.wptf_product_table_wrapper.business_wrapper table#wptf_table.wptf_product_table.business_table thead tr.wptf_table_header_row.wptf_table_head th {
+    color: black;
+}
+
+
+
+/* for shop Icon*/
+/*For Shop Icon*/
+table.add_cart_only_icon tr td.wptf_action a.button:before {
+    /*content: "Ã®â‚¬Â";*/
+    content: "\e01d";    
+    z-index: 99999;
+    margin: 11px;
+    font-family: WooCommerce;
+    font-size: initial;
+    padding: 0 9px;
+}
+table.add_cart_only_icon tr td.wptf_action a.button{
+    font-size: 0 !important;
+}
+table.add_cart_only_icon tr td.wptf_action a.button.added:before{
+    font-style: italic;
+    font-stretch: semi-expanded;
+}
+table.add_cart_left_icon tr td.wptf_action a.button:before {
+    /*content: "Ã®â‚¬Â";*/
+    content: "\e01d";    
+    z-index: 99999;
+    font-family: WooCommerce;
+    font-size: initial;
+    padding: 0 4px;
+}
+table.add_cart_right_icon tr td.wptf_action a.button:after {
+    /*content: "Ã®â‚¬Â";*/
+    content: "\e01d";    
+    z-index: 99999;
+    font-family: WooCommerce;
+    font-size: initial;
+    padding: 0 4px;
+}
+
